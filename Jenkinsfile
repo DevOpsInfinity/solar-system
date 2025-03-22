@@ -4,7 +4,7 @@ pipeline {
         stage('VM Node Version') {
             steps {
                 npm  --version
-                node --version
+                node -V
             }
         }
     }
